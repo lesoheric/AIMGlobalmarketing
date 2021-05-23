@@ -1,0 +1,40 @@
+.bro
+{
+    text-align: center;
+    font-size: 14px;
+  
+    
+}
+fieldset
+{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 12px 0px 12px 0px;
+
+}
+input
+{
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+#nono
+{
+    border: rgb(255, 255, 255) solid 0.02px;
+    width: 400px;
+    border-style:groove;
+    box-shadow: 2px 2px 2px 2px rgb(219, 210, 210);
+    border-radius: 12px 0px 12px 0px;
+}
+span
+{
+    background-color: rgba(114, 117, 110, 0.349);
+    border-radius: 12px 0px 12px 0px;
+    width: 400px;
+   
+}
+
+textarea
+{
+    border-radius: 12px;
+}
