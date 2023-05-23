@@ -15,8 +15,10 @@ nav
     width:fit-content;
     margin: auto;
     box-shadow:2px 2px 2px 2px rgb(233, 222, 222);
-    font-size: 35px;
-    margin-top: 150px;
+    font-size: 25px;
+    margin-top: 70px;
+    font-family: serif;
+
 }
 nav li
 {
@@ -31,27 +33,74 @@ nav a,a
 {
     text-decoration: none;
     color:rgb(54, 51, 51);
+    padding: 25px;
     
 }
-a:hover
+li a:hover
 {
     
     transition-property: all;
-    border-bottom: black solid 5px;
+    border-bottom: black solid 3px;
     color: brown;
     font-style: none;
 }
-
-
-
-.lino img
+.imagesAccueil img
 {
-    zoom: 60%;
+    zoom: 150%;
     position: relative;
     z-index: auto;
 }
+.nature{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer
+{
+    border: groove 1px rgb(255, 255, 255);
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 2px 0px 2px 0px rgb(216, 192, 192);
+    /*background-color: rgb(245, 245, 245);*/
+    
+    margin: auto;
+   
+    
+}
+figure img
+{
+   border-radius: 10px;
+   opacity: 80%;
+   float: left;
+   zoom: 30%;
+}
+
+.icon img{
+    width: 1.5%;
+    padding: 10px;
+    float: right;
+}
+#liens{
+    text-align: center;
+    background-color: rgb(252, 247, 247);
+    width: fit-content;
+    margin: auto;
+    font-family: serif;
+    padding: 40px;
+}
+#liens a {
+    text-decoration:none;
+    padding: 15px;
+}
+#liens a:hover{
+    color: brown;
+   
+}
+em{
+    color: rgba(43, 40, 40, 0.76);
+    font-style: normal;
+}
 
 
+/*
 th,td
 {
     border: 0.02px groove rgb(252, 252, 252);
@@ -63,7 +112,7 @@ th,td
    
 }
 
-.nature,.fofo,.six,figcaption p ,aside p
+.fofo,.six,figcaption p ,aside p
 {
    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -71,11 +120,7 @@ th,td
     color: rgba(0, 0, 0, 0.767);
 
 }
-.nature
-{
-    position: relative;
-    left: 50px;
-}
+
 #sango
 {
    
@@ -148,21 +193,11 @@ strong
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
-figure img
-{
-   border-radius: 10px;
-   opacity: 80%;
-  
-   zoom: 20%;
 
-}
-em
-{
-    color: rgba(194, 20, 20, 0.877);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     
 
-}
+
 .time
 {
     color: rgba(84, 172, 62, 0.863) ;
@@ -178,23 +213,12 @@ em
     position: relative;
     left: 245px;
 }
-footer
-{
-    border: groove 1px rgb(255, 255, 255);
-    width: 1050px;
-    margin-left: 115px;
-    border-radius: 10px 0px 10px 0px;
-    box-shadow: 2px 0px 2px 0px rgb(216, 192, 192);
-   
-   
-}
-figure
-{
-    float: left;
-}
+
+
+
 footer,#sango,.sanogo
 {
-    margin-top: 10px;
+
 
 }
 .dingo img
@@ -218,3 +242,4 @@ footer,#sango,.sanogo
 
 }
 
+*/
