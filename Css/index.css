@@ -61,9 +61,10 @@ footer
 {
    
     background-color: rgba(0, 128, 0, 0.068);
-    margin: auto;
-   
-    
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
+ 
 }
 figure img
 {
@@ -100,7 +101,7 @@ figure img
    
 }
 em{
-    color: rgba(189, 179, 179, 0.507);
+    color: rgba(224, 214, 214, 0.507);
     font-style: normal;
 }
 

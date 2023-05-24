@@ -6,8 +6,8 @@ body{
 h1
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgba(0, 0, 0, 0.616);
-    font-size: 15px;
+    color: rgba(145, 134, 134, 0.616);
+    font-size: 20px;
 }
 h1 
 nav
@@ -16,8 +16,8 @@ nav
     width:fit-content;
     margin: auto;
     box-shadow:2px 2px 2px 2px rgb(233, 222, 222);
-    font-size: 10px;
     margin-top: 70px;
+    font-size: 10px;
     font-family: serif;
 
 }
@@ -33,8 +33,9 @@ nav ul
 nav a,a
 {
     text-decoration: none;
-    color:rgb(54, 51, 51);
+    color:rgba(92, 87, 87, 0.534);
     padding: 5px;
+    font-size: 20px;
     
 }
 li a:hover
@@ -42,8 +43,9 @@ li a:hover
     
     transition-property: all;
     border-bottom: black solid 3px;
-    color: brown;
+    color: rgb(255, 255, 255);
     font-style: none;
+    background-color: rgba(0, 128, 0, 0.048);
 }
 .imagesAccueil img
 {
@@ -58,11 +60,10 @@ li a:hover
 }
 footer
 {
-    border: groove 1px rgb(137, 197, 122);
-    border-radius: 10px 0px 10px 0px;
-    box-shadow: 2px 0px 2px 0px rgba(192, 216, 192, 0.199);
-    /*background-color: rgb(245, 245, 245);*/
-    margin: auto;
+    background-color: rgba(0, 128, 0, 0.068);
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
    
     
 }
@@ -81,7 +82,7 @@ figure img
 }
 #liens{
     text-align: center;
-    background-color: rgb(252, 247, 247);
+    background-color: rgba(0, 128, 0, 0.062);
     width: fit-content;
     margin: auto;
     font-family: serif;
@@ -89,16 +90,15 @@ figure img
 }
 #liens a {
     text-decoration:none;
-   
     font-size: 8px;
     
 }
 #liens a:hover{
-    color: brown;
+    color: rgb(255, 255, 255);
    
 }
 em{
-    color: rgba(43, 40, 40, 0.76);
+    color: rgba(80, 75, 75, 0.76);
     font-style: normal;
     font-size: 10px;
 }
