@@ -14,10 +14,12 @@ h1
     top:2%;
     right:2%;  
 }
+#button a{
+    padding: 5px;
+}
 button{
     width: fit-content;
     font-size: 21px;
-    margin: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 button:hover{

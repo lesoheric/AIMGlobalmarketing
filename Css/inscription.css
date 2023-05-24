@@ -1,0 +1,132 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/fond.jpeg");
+}
+
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 30px;
+}
+
+
+nav
+{
+    border: solid 0.01px rgba(102, 202, 89, 0.014);
+    margin: auto;
+    font-size: 20px;
+    margin-top: 70px;
+    font-family: serif;
+    background-color: rgba(0, 128, 0, 0.062);
+    
+
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 14px;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav a,a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.616);
+    padding: 25px;
+    
+}
+li a:hover
+{
+    
+    transition-property: all;
+    border-bottom: black solid 3px;
+    color: rgb(255, 255, 255);
+    font-style: none;
+    background-color: rgba(0, 128, 0, 0.048);
+}
+#contenu{
+    border: solid rgba(67, 129, 70, 0.185) 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("../images/formulaire.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+h3{
+    color: rgba(255, 255, 255, 0.616);
+    text-decoration: overline;
+}
+.formulaire{
+    border: solid 10px rgba(113, 180, 96, 0.253);
+}
+.formulaire:hover{
+    background-color: rgba(82, 167, 82, 0.062);
+}
+label{
+    color: rgba(255, 255, 255, 0.616);
+    font-family: serif;
+    margin: 10px;
+}
+.condGenerUtil{
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+span{
+    font-style: italic;
+    text-decoration: underline;
+}
+.btn{
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 54, 3);
+}
+
+footer
+{
+   
+    background-color: rgba(0, 128, 0, 0.068);
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
+ 
+}
+.icon img{
+    width: 1.5%;
+    padding: 10px;
+    float: right;
+    border-radius: 50%;
+}
+#liens{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    font-family: serif;
+    padding: 40px;
+    background-color: rgba(0, 128, 0, 0.062);
+    
+   
+}
+#liens a {
+    text-decoration:none;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.616);
+}
+#liens a:hover{
+    color: rgb(255, 255, 255);
+   
+}
+em{
+    color: rgba(224, 214, 214, 0.507);
+    font-style: normal;
+}
