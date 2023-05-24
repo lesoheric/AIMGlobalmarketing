@@ -7,7 +7,7 @@ h1
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(255, 255, 255, 0.616);
-    font-size: 35px;
+    font-size: 30px;
 }
 #button{
     position: fixed;
@@ -16,7 +16,7 @@ h1
 }
 button{
     width: fit-content;
-    font-size: 28px;
+    font-size: 21px;
     margin: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
@@ -24,16 +24,12 @@ button:hover{
     background-color: rgba(0, 128, 0, 0.062);
     color: white;
 }
-.userImage{
-    border-radius: 50%;
-    width: 20%;
-}
 nav
 {
     border: solid 0.01px rgba(102, 202, 89, 0.096);
     width:fit-content;
     margin: auto;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 70px;
     font-family: serif;
     background-color: rgba(0, 128, 0, 0.062);

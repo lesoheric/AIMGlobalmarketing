@@ -24,16 +24,16 @@ button{
 }
 .userImage{
     border-radius: 50%;
-    width: 10%;
-    
+    width: 10%;  
 }
-h1 
+h1{
+    font-size: 15px;
+}
 nav
 {
-    border: solid 0.01px rgb(235, 232, 232);
+    border: solid 0.01px rgba(81, 189, 90, 0.11);
     width:fit-content;
     height: fit-content;
-    box-shadow:2px 2px 2px 2px rgb(233, 222, 222);
     margin-top: 70px;
     font-family: serif;
 
