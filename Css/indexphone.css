@@ -9,6 +9,24 @@ h1
     color: rgba(255, 255, 255, 0.616);
     font-size: 20px;
 }
+#button{
+    position: fixed;
+    top:0%;
+    right: 0%;
+    border-left: solid  rgba(0, 128, 0, 0.062) 15px;
+    zoom: 70%;
+    width: 30%;
+    
+}
+button{
+    font-size: 12px;
+    margin: 1px;
+}
+.userImage{
+    border-radius: 50%;
+    width: 10%;
+    
+}
 h1 
 nav
 {
@@ -34,7 +52,8 @@ nav a,a
     text-decoration: none;
     color: rgba(255, 255, 255, 0.616);
     font-size: 15px;
-    padding-inline: 1px; 
+    padding-inline: 1px;
+ 
 }
 li a:hover
 {

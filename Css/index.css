@@ -9,6 +9,25 @@ h1
     color: rgba(255, 255, 255, 0.616);
     font-size: 35px;
 }
+#button{
+    position: fixed;
+    top:2%;
+    right:2%;  
+}
+button{
+    width: fit-content;
+    font-size: 28px;
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+button:hover{
+    background-color: rgba(0, 128, 0, 0.062);
+    color: white;
+}
+.userImage{
+    border-radius: 50%;
+    width: 20%;
+}
 nav
 {
     border: solid 0.01px rgba(102, 202, 89, 0.096);
