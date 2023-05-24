@@ -33,7 +33,7 @@ nav ul
 nav a,a
 {
     text-decoration: none;
-    color:rgb(88, 84, 84);
+    color: rgba(255, 255, 255, 0.616);
     padding: 25px;
     
 }
@@ -55,7 +55,7 @@ li a:hover
 .nature{
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(94, 96, 99);
+    color: rgba(255, 255, 255, 0.616);
 }
 footer
 {
