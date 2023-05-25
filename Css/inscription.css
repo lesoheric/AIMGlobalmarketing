@@ -12,6 +12,29 @@ h1
     font-size: 30px;
 }
 
+#button{
+    position: fixed;
+    top:2%;
+    right:2%;  
+}
+#button a{
+    padding: 5px;
+}
+button{
+    width: fit-content;
+    font-size: 21px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+button:hover{
+    background-color: rgba(0, 128, 0, 0.062);
+    color: rgba(235, 225, 225, 0.911);
+}
+#button p{
+    color: aliceblue;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 nav
 {
@@ -129,4 +152,34 @@ footer
 em{
     color: rgba(224, 214, 214, 0.507);
     font-style: normal;
+}
+
+
+/*Css relative à la page connexion seulement*/
+legend img{
+    border-radius: 50%;
+    opacity: 80%;
+    border: solid green 2px;
+}
+em{
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+.userTap label{
+    display: block;
+}
+.userTap input{
+    width: 40%;
+    height: 20px;
+    border-radius: 10px;
+    border: solid rgba(0, 128, 0, 0.212) 5px ;
+    color: aliceblue;
+    background-color: rgba(121, 206, 110, 0.13);
+}
+.pass{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    position: fixed;
+    right: 0%;
 }

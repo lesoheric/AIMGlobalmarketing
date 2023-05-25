@@ -119,7 +119,8 @@ figure img
 }
 em{
     color: rgba(224, 214, 214, 0.507);
-    font-style: normal;
+    font-style: oblique;
+    font-size: 12px;
 }
 
 
