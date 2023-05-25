@@ -9,7 +9,7 @@ h1
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(255, 255, 255, 0.616);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #button{
@@ -74,7 +74,7 @@ li a:hover
 }
 #contenu{
     border: solid rgba(67, 129, 70, 0.185) 1px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -94,7 +94,6 @@ h3{
     background-color: rgba(82, 167, 82, 0.062);
 }
 .saisie{
-    width:min-content;
     margin: auto;
     padding-bottom: 5px;
 }
@@ -103,6 +102,7 @@ h3{
     color: aliceblue;
     border-radius: 5px;
     border: solid rgba(0, 128, 0, 0.212) 1px ;
+    height: 25px;
     
 
 }
@@ -110,6 +110,7 @@ label{
     color: aliceblue;
     font-family: serif;
     margin: 10px;
+   
 }
 
 .condGenerUtil{
@@ -174,6 +175,7 @@ legend img{
     border-radius: 50%;
     opacity: 80%;
     border: solid green 2px;
+    width: 20%;
 }
 em{
     font-style: oblique;
@@ -182,17 +184,12 @@ em{
 }
 label img{
     border-radius: 50%;
-    width: 8%;
+    width: 4%;
     border: solid 2px rgba(64, 158, 68, 0.308);
 }
-.userTap label{
-    display: block;
-    
-}
 .userTap input{
-    width: 40%;
-    height: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
+    height:25px;
     border: solid rgba(0, 128, 0, 0.212) 1px ;
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.589);
