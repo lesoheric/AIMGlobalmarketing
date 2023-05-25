@@ -166,6 +166,10 @@ em{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
 }
+label img{
+    border-radius: 50%;
+    width: 8%;
+}
 .userTap label{
     display: block;
 }
@@ -173,9 +177,9 @@ em{
     width: 40%;
     height: 20px;
     border-radius: 10px;
-    border: solid rgba(0, 128, 0, 0.212) 5px ;
+    border: solid rgba(0, 128, 0, 0.212) 1px ;
     color: aliceblue;
-    background-color: rgba(121, 206, 110, 0.13);
+    background-color: rgba(0, 0, 0, 0.589);
 }
 .pass{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
