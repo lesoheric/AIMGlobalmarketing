@@ -1,0 +1,28 @@
+#profilsection{
+    position:fixed;
+    top: 0%;
+    right: 0%;
+    width: 25%;
+    border: solid rgba(114, 173, 114, 0.068) 1px;
+    color: white;
+    background-color: rgba(80, 175, 96, 0.116);
+    height: 100%;
+}
+#expoProduit{
+    color: white;
+    width: 75%;
+    height: 46pc;
+}
+.indication{
+    font-style: italic;
+    font-size: 12px;
+}
+#recherche{
+    background-color: rgba(0, 0, 0, 0.363);
+    padding-bottom: 10px;
+    padding-top: 2px;  
+}
+label,select{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+}
