@@ -25,33 +25,19 @@
                 </nav>
         
         <div id="recherche">
+            <form action="" method="post">
             <h1>LaNcEz VoTrE rEcHeRcHe </h1>
             <p class="indication">***Veuillez selectionner une des options dans chaque catégorie***</p>
-            <label for=""> Partie du coprs* : </label><input type="text">
-            <label for="">Age* : </label><select name="" id="">
-                <option value="" >0 - 1 ans</option>
-                <option value="" >1 ans - 3 ans</option>
-                <option value="" >3 ans -15 ans</option>
-                <option value="" >15 ans -18 ans </option>
-                <option value="">18 ans - 24 ans </option>
-                <option value="">24 ans - 80 ans </option>
-                <option value="">80 ans et Plus </option>
-            </select>
+            <label for=""> Partie du coprs* : </label><input required type="text">
+            <label for="">Age* : </label><input required type="number">
             <label for="">Sexe : </label><select name="" id="">
-                <option value="1" >Masculin</option>
+                <option selected value="1" >Masculin</option>
                 <option value="0" >Féminin</option>
             </select>
-
-            <label for="">Masse : </label><select name="" id="">
-                    <option value="" >0 - 3kg</option>
-                    <option value="" >12kg - 20 kg</option>
-                    <option value="" >20kg - 45 kg</option>
-                    <option value="" >45kg - 60 kg</option>
-                    <option value="" >60kg - 90 kg</option>
-                    <option value="" >90kg et Plus</option>
-                    </select>
+            <label for="">Masse* : </label><input required type="number">
            
-           <p> <button>rechercher</button></p>
+           <p></label><input class="#bouton" type="submit" value="Trouver" > </p>
+        </form>
         </div>
         
         </section>

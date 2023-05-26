@@ -22,7 +22,8 @@
     padding-bottom: 10px;
     padding-top: 2px;  
 }
-label,select{
+label, input,.bouton,select{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:20px;
 }
+
